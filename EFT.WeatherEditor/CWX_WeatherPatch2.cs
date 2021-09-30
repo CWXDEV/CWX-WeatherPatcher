@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace EFT.WeatherEditor
 {
-    class CWX_WeatherPatch2 : Patch
+    class CWX_WeatherPatch2 : Patch  // MAKES CHANGES TO GCLASS 1414
     {
 
         public CWX_WeatherPatch2() : base(T: typeof(CWX_WeatherPatch2), postfix: nameof(PostFixPatch))
