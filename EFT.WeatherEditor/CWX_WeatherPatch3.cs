@@ -4,31 +4,31 @@ using Aki.Reflection.Patching;
 using Aki.Common;
 using EFT.Weather;
 using UnityEngine;
-using BehaviourMachine;
 
 //namespace EFT.WeatherEditor
 //{
 //    class CWX_WeatherPatch3 : Patch
 //    {
 
-//        public CWX_WeatherPatch3() : base(T: typeof(CWX_WeatherPatch3), postfix: nameof(PostFixPatch))
+//        public CWX_WeatherPatch3() : base(T: typeof(CWX_WeatherPatch3), prefix: nameof(PreFixPatch))
 //        {
 //        }
 
 //        protected override MethodBase GetTargetMethod()
 //        {
-//            return typeof(SetFog).GetMethod("SetFog", BindingFlags.Public | BindingFlags.Instance);
+//            return typeof(CloudsController).GetMethod("Awake", BindingFlags.NonPublic | BindingFlags.Instance);
 //        }
 
 
-//        private static void PostFixPatch(ref SetFog __result)
+//        static bool PreFixPatch(ref CloudsController __result)
 //        {
-
-//            Log.Info("OLD GlobalFogStart:" + __result.FogStart.ToString());
+//            __result.Refresh();
+//            Log.Info("OLD GlobalFogStart:" + __result.FogDensityMultyplier.ToString());
 //            Log.Info("---------------------------");
-//            __result.linearFogStart = 400f;
-//            Log.Info("NEW GlobalFogStart:" + __result.FogStart.ToString());
+//            __result.FogDensityMultyplier = 0f;
+//            Log.Info("NEW GlobalFogStart:" + __result.FogDensityMultyplier.ToString());
 //            Log.Info("-----------------------------------------------------------------");
+//            return false;
 //        }
 //    }
 //}
