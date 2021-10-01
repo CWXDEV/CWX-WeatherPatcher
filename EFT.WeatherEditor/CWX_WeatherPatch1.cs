@@ -16,7 +16,7 @@ namespace EFT.WeatherEditor
 
         protected override MethodBase GetTargetMethod()
         {
-            return typeof(WeatherDebug).GetMethod("method_0", BindingFlags.Public);
+            return typeof(WeatherDebug).GetMethod("method_0", BindingFlags.NonPublic | BindingFlags.Instance);
         }
 
 

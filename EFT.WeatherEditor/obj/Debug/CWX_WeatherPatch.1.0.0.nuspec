@@ -10,6 +10,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\craig\Desktop\Visual Studio\REPOSITORY\EFT.WeatherEditor\bin\Debug\net472\CWX_WeatherPatch.dll" target="lib\net472\CWX_WeatherPatch.dll" />
+    <file src="C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\CWX_WeatherPatch.dll" target="lib\net472\CWX_WeatherPatch.dll" />
   </files>
 </package>
