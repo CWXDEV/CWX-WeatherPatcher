@@ -5,7 +5,6 @@
  * -class-VolumetricFog has ConstantFog and GlobalDensityMult(has header Fog Density and set 1f to start) values
  * -class-TOD_FogParameters 
  * -class-FogEllipsoid
- * -class-SetFog might be able to turn fog off from unity, here?
  * -class-GlobalFog has some interesting values, "Apply Distance-based fog" = true (fog does move with camera when using terkoiz free cam
  * for me that option looks decent to check, also has heightFog "apply height-based fog" = true with 1f, might be why it stops at a certain height
  * -class-PrismEffects also has Fog Values, camera type stuff though
@@ -28,11 +27,13 @@
  * TOD_FogParameters
  * VolumetricFog
  * 
+ * -class-EffectsController-awake might be the section to look at regards sharpening on painkillers
+ * 
  * 
  *
  * 
  * 
- * 
+ * -class-SetFog might be able to turn fog off from unity, here? - getting issues with it being virtual, unsure if this is even possible to bypass
  * 
  * 
  * 
