@@ -32,7 +32,7 @@
  * 
  *
  * 
- * 
+ * -class-CustomGlobalFog
  * -class-SetFog might be able to turn fog off from unity, here? - getting issues with it being virtual, unsure if this is even possible to bypass
  * 
  * 

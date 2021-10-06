@@ -10,8 +10,8 @@ namespace EFT.WeatherPatch
             PatchList patchlist = new PatchList
             {
                 new CWX_WeatherPatch1(),
-                new CWX_WeatherPatch2()
-                //new CWX_WeatherPatch3()
+                new CWX_WeatherPatch2(),
+                new CWX_WeatherPatch3()
             };
             this._patches = patchlist;
         }

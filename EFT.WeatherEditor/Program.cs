@@ -1,5 +1,4 @@
 ﻿using Aki.Common;
-using Aki.Reflection.Patching;
 
 namespace EFT.WeatherPatch
 {
