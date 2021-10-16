@@ -6,7 +6,7 @@ namespace EFT.WeatherPatch
     {
         static void Main(string[] args)
         {
-            Log.Info("Loading: CWX WeatherPatcher");
+            Log.Info("Loading: CWX WEATHERPATCH");
             new PatchManager().RunPatches();
         }
     }
