@@ -28,6 +28,8 @@ namespace EFT.WeatherEditor
             __result.ScaterringFogDensity = 0.000f;
             __result.ScaterringFogHeight = 0f;
             __result.GlobalFogDensity = 0.000f;
+            __result.LyingWater = 0f;
+            __result.Turbulence = 0f;
             Log.Info("TURNED ON ALWAYS SUNNY!");
         }
     }

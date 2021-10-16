@@ -4,7 +4,7 @@ using Aki.Common;
 
 namespace EFT.WeatherEditor
 {
-    class CWX_WeatherPatch3 : Patch
+    class CWX_WeatherPatch3 : Patch  // MAKES CHANGES TO CUSTOMGLOBALFOG
     {
 
         public CWX_WeatherPatch3() : base(T: typeof(CWX_WeatherPatch3), postfix: nameof(PostFixPatch))

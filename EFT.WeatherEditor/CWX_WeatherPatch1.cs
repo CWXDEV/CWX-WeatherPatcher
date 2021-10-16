@@ -20,12 +20,16 @@ namespace EFT.WeatherEditor
 
         private static void PostFixPatch(ref WeatherDebug __result)
         {
+            __result.IsDynamicSunWeatherDebug = false;
             __result.Enabled = true;
-            __result.CloudDensity = -1f;
-            __result.Rain = 0f;
             __result.WindMagnitude = 0f;
-            __result.LightningThunderProbability = 0f;
+            __result.WindDirection = 0f;
+            __result.CloudDensity = -1f;
             __result.Fog = 0f;
+            __result.Rain = 0f;
+            __result.LightningThunderProbability = 0f;
+            Log.Info("TURNED ON CUSTOM DEBUG SETTINGS!");
+
         }
     }
 }
