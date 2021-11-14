@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CWX_WeatherPatch", "CWX_WeatherPatch.csproj", "{0E6813D8-8989-4643-9D11-138F21CE4963}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E6813D8-8989-4643-9D11-138F21CE4963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6813D8-8989-4643-9D11-138F21CE4963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6813D8-8989-4643-9D11-138F21CE4963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6813D8-8989-4643-9D11-138F21CE4963}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E84BA04F-3B5F-41C9-AFCA-13430F58937A}
+	EndGlobalSection
+EndGlobal

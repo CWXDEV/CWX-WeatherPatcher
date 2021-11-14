@@ -19,8 +19,8 @@ namespace EFT.WeatherEditor
 
         private static void PostFixPatch(ref CustomGlobalFog __instance)
         {
-            Log.Info("TURNED OFF THE GLOBAL FOG!");
             __instance.FuncStart = 0f;
+            Log.Info("MADE CHANGES TO CUSTOMGLOBALFOG!");
         }
     }
 }
