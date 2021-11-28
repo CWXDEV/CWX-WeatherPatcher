@@ -28,7 +28,7 @@ namespace EFT.WeatherEditor
             __result.GlobalFogDensity = 0f;
             __result.GlobalFogHeight = 0f;
 
-            Log.Info("MADE CHANGES TO GCLASS1414 CREATEDEFAULT");
+            Log.Info("MADE CHANGES TO GCLASS1414 CREATEDEFAULT!");
         }
     }
 }
