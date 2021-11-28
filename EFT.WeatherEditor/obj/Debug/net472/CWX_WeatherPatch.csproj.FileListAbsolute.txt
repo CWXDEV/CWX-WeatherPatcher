@@ -109,14 +109,12 @@ C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\ne
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\Mono.Cecil.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\bsg.componentace.compression.libs.zlib.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.PhysicsModule.dll
-C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\DecalSystem.Runtime.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.UIModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\Sirenix.OdinInspector.Attributes.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.TerrainModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.AIModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\Boo.Lang.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.AnimationModule.dll
-C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.Networking.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.UnityWebRequestModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\Sirenix.Serialization.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.IMGUIModule.dll
@@ -162,7 +160,6 @@ C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\ne
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.LocalizationModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.SpriteMaskModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.SpriteShapeModule.dll
-C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.StyleSheetsModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.TilemapModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.UnityConnectModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.UnityWebRequestAudioModule.dll
@@ -178,7 +175,6 @@ C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\ne
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.CrashReportingModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.PerformanceReportingModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\Sirenix.Serialization.Config.dll
-C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.Timeline.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\obj\Debug\net472\CWX_WeatherPatch.csproj.AssemblyReference.cache
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\obj\Debug\net472\CWX_WeatherPatch.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\obj\Debug\net472\CWX_WeatherPatch.AssemblyInfoInputs.cache
@@ -188,5 +184,12 @@ C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\obj\Debug\ne
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\obj\Debug\net472\CWX_WeatherPatch.pdb
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\Assembly-CSharp-firstpass.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\LibraryLoaderUtility.dll
+C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\Aki.Build.dll
+C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.InputLegacyModule.dll
+C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\com.unity.multiplayer-hlapi.Runtime.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\System.Buffers.dll
-C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\obj\Debug\net472\CWX_WeatherPatch.csproj.CopyComplete
+C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\Unity.ScriptableBuildPipeline.dll
+C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.DSPGraphModule.dll
+C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.AndroidJNIModule.dll
+C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.SubsystemsModule.dll
+C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\Unity.Timeline.dll

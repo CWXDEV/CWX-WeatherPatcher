@@ -1,11 +1,10 @@
 ﻿using System.Reflection;
 using Aki.Reflection.Patching;
 using Aki.Common;
-using EFT.Weather;
 
 namespace EFT.WeatherEditor
 {
-    class CWX_WeatherPatch4 : Patch  // EDITS COPYPARAMS IN WEATHERDEBUG
+    class CWX_WeatherPatch4 : Patch  // MAKES CHANGES TO LEVELSETTINGS
     {
 
         public CWX_WeatherPatch4() : base(T: typeof(CWX_WeatherPatch4), postfix: nameof(PostFixPatch))
@@ -22,7 +21,7 @@ namespace EFT.WeatherEditor
         {
             __instance.fog = false;
             __instance.fogEndDistance = 0f;
-            Log.Info("CHANGED LEVELSETTINGS SETTINGS!");
+            Log.Info("MADE CHANGES TO LEVELSETTINGS!");
         }
     }
 }

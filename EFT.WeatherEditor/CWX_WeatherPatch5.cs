@@ -1,11 +1,10 @@
 ﻿using System.Reflection;
 using Aki.Reflection.Patching;
 using Aki.Common;
-using EFT.Weather;
 
 namespace EFT.WeatherEditor
 {
-    class CWX_WeatherPatch5 : Patch  // TOD_scattering fog changes
+    class CWX_WeatherPatch5 : Patch  // MAKES CHANGES TO TOD_SCATTERING FOG
     {
 
         public CWX_WeatherPatch5() : base(T: typeof(CWX_WeatherPatch5), postfix: nameof(PostFixPatch))
@@ -22,7 +21,7 @@ namespace EFT.WeatherEditor
         {
             __instance.GlobalDensity = 0f;
             __instance.HeightFalloff = 0f;
-            Log.Info("CHANGED TOD_SCATTERING SETTINGS!");
+            Log.Info("MADE CHANGES TO TOD_SCATTERING FOG!");
         }
     }
 }
