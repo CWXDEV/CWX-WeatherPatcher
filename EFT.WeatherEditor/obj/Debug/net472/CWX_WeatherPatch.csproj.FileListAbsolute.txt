@@ -193,3 +193,6 @@ C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\ne
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.AndroidJNIModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.SubsystemsModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\Unity.Timeline.dll
+C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\obj\Debug\net472\CWX_WeatherPatch.csproj.CopyComplete
+C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\JBooth.MicroSplat.Core.dll
+C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\DissonanceVoip.dll
