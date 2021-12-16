@@ -13,11 +13,11 @@ namespace EFT.WeatherEditor
 
         protected override MethodBase GetTargetMethod()
         {
-            return typeof(GClass1638).GetMethod("smethod_2", BindingFlags.NonPublic | BindingFlags.Static);
+            return typeof(GClass1676).GetMethod("smethod_2", BindingFlags.NonPublic | BindingFlags.Static);
         }
 
 
-        private static void PostFixPatch(ref GClass1638 __result)
+        private static void PostFixPatch(ref GClass1676 __result)
         {
             __result.Cloudness = -1f;
             __result.WindDirection = 8;
