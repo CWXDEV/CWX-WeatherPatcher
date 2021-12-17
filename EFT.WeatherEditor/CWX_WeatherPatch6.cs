@@ -1,22 +1,17 @@
 ﻿using System.Reflection;
 using Aki.Reflection.Patching;
-using Aki.Common;
+using Aki.Common.Utils;
 
 namespace EFT.WeatherEditor
 {
-    class CWX_WeatherPatch6 : Patch  // MAKES CHANGES TO GClass1638 SMETHOD_2
+    class CWX_WeatherPatch6 : ModulePatch  // MAKES CHANGES TO GClass1676 SMETHOD_2
     {
-
-        public CWX_WeatherPatch6() : base(T: typeof(CWX_WeatherPatch6), postfix: nameof(PostFixPatch))
-        {
-        }
-
         protected override MethodBase GetTargetMethod()
         {
             return typeof(GClass1676).GetMethod("smethod_2", BindingFlags.NonPublic | BindingFlags.Static);
         }
 
-
+        [PatchPostfix]
         private static void PostFixPatch(ref GClass1676 __result)
         {
             __result.Cloudness = -1f;
