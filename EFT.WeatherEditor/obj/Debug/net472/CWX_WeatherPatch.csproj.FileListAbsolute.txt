@@ -106,7 +106,6 @@ C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\ne
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.CoreModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.UI.dll
-C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\Mono.Cecil.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\bsg.componentace.compression.libs.zlib.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.PhysicsModule.dll
 C:\Users\craig\source\repos\CWXDEV\WeatherPatcher\EFT.WeatherEditor\bin\Debug\net472\UnityEngine.UIModule.dll
