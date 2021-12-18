@@ -1,0 +1,21 @@
+## WeatherPatcher
+*.exe
+*.zip
+EFT.WeatherEditor/bin/
+EFT.WeatherEditor/obj/
+EFT.WeatherEditor/Properties/
+*.editorconfig
+
+## visual studio
+.vs
+.idea
+slnx.sqlite
+slnx-journal.sqlite
+
+## nodejs
+node_modules
+node.exe
+package-lock.json
+
+## windows
+desktop.ini
