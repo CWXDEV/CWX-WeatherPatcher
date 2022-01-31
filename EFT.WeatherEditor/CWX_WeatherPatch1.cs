@@ -1,18 +1,18 @@
-﻿using System.Reflection;
+﻿using Aki.Common.Utils;
 using Aki.Reflection.Patching;
-using Aki.Common.Utils;
+using System.Reflection;
 
 namespace EFT.WeatherEditor
 {
-    class CWX_WeatherPatch1 : ModulePatch  // MAKES CHANGES TO GClass1676 SMETHOD_1
+    class CWX_WeatherPatch1 : ModulePatch  // MAKES CHANGES TO GClass1705 SMETHOD_1
     {
         protected override MethodBase GetTargetMethod()
         {
-            return typeof(GClass1676).GetMethod("smethod_1", BindingFlags.NonPublic | BindingFlags.Static);
+            return typeof(GClass1705).GetMethod("smethod_0", BindingFlags.NonPublic | BindingFlags.Static);
         }
 
         [PatchPostfix]
-        private static void PostFixPatch(ref GClass1676 __result)
+        private static void PostFixPatch(ref GClass1705 __result)
         {
             __result.Cloudness = -1f;
             __result.WindDirection = 8;
@@ -23,7 +23,7 @@ namespace EFT.WeatherEditor
             __result.GlobalFogDensity = 0f;
             __result.GlobalFogHeight = 0f;
 
-            Log.Info("MADE CHANGES TO GCLASS1414 SMETHOD_1!");
+            Log.Info("MADE CHANGES TO GClass1703 SMETHOD_1!");
 
         }
     }

@@ -39,10 +39,10 @@
  *  
  *  
  *  
- *  
- *  
- *  
- *  
+ *  MADE CHANGES TO LEVELSETTINGS!
+ *  MADE CHANGES TO GClass1677 SMETHOD_0!
+ *  MADE CHANGES TO CUSTOMGLOBALFOG!
+ *  MADE CHANGES TO TOD_SCATTERING FOG!
  *  
  *  
  *  
