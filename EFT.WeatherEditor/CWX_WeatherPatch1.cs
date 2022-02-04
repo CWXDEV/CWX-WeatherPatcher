@@ -1,6 +1,5 @@
 ﻿using Aki.Common.Utils;
 using Aki.Reflection.Patching;
-using System.Diagnostics;
 using System.Reflection;
 
 namespace CWX_WeatherPatcher
