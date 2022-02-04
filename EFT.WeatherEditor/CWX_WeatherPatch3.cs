@@ -1,22 +1,22 @@
-﻿using System.Reflection;
+﻿using Aki.Common.Utils;
 using Aki.Reflection.Patching;
-using Aki.Common.Utils;
+using System.Reflection;
 
-namespace EFT.WeatherEditor
+namespace CWX_WeatherPatcher
 {
-    class CWX_WeatherPatch3 : ModulePatch  // MAKES CHANGES TO CUSTOMGLOBALFOG
+    class CWX_WeatherPatch3 : ModulePatch  // MAKES CHANGES TO LEVELSETTINGS
     {
-
         protected override MethodBase GetTargetMethod()
         {
-            return typeof(CustomGlobalFog).GetMethod("Start", BindingFlags.NonPublic | BindingFlags.Instance);
+            return typeof(LevelSettings).GetMethod("ApplySettings", BindingFlags.Public | BindingFlags.Instance);
         }
 
         [PatchPostfix]
-        private static void PostFixPatch(ref CustomGlobalFog __instance)
+        private static void PostFixPatch(ref LevelSettings __instance)
         {
-            __instance.FuncStart = 0f;
-            Log.Info("MADE CHANGES TO CUSTOMGLOBALFOG!");
+            __instance.fog = false;
+            __instance.fogEndDistance = 0f;
+            Log.Info("MADE CHANGES TO LEVELSETTINGS!");
         }
     }
 }

@@ -1,22 +1,22 @@
-﻿using System.Reflection;
+﻿using Aki.Common.Utils;
 using Aki.Reflection.Patching;
-using Aki.Common.Utils;
+using System.Reflection;
 
-namespace EFT.WeatherEditor
+namespace CWX_WeatherPatcher
 {
-    class CWX_WeatherPatch4 : ModulePatch  // MAKES CHANGES TO LEVELSETTINGS
+    class CWX_WeatherPatch4 : ModulePatch  // MAKES CHANGES TO TOD_SCATTERING FOG
     {
         protected override MethodBase GetTargetMethod()
         {
-            return typeof(LevelSettings).GetMethod("ApplySettings", BindingFlags.Public | BindingFlags.Instance);
+            return typeof(TOD_Scattering).GetMethod("Start", BindingFlags.NonPublic | BindingFlags.Instance);
         }
 
         [PatchPostfix]
-        private static void PostFixPatch(ref LevelSettings __instance)
+        private static void PostFixPatch(ref TOD_Scattering __instance)
         {
-            __instance.fog = false;
-            __instance.fogEndDistance = 0f;
-            Log.Info("MADE CHANGES TO LEVELSETTINGS!");
+            __instance.GlobalDensity = 0f;
+            __instance.HeightFalloff = 0f;
+            Log.Info("MADE CHANGES TO TOD_SCATTERING FOG!");
         }
     }
 }
