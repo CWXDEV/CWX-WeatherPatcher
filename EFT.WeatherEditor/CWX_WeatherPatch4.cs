@@ -1,5 +1,4 @@
-﻿using Aki.Common.Utils;
-using Aki.Reflection.Patching;
+﻿using Aki.Reflection.Patching;
 using System.Reflection;
 
 namespace CWX_WeatherPatcher
@@ -16,7 +15,7 @@ namespace CWX_WeatherPatcher
         {
             __instance.GlobalDensity = 0f;
             __instance.HeightFalloff = 0f;
-            Log.Info("MADE CHANGES TO TOD_SCATTERING FOG!");
+            Logger.LogInfo("MADE CHANGES TO TOD_SCATTERING FOG!");
         }
     }
 }

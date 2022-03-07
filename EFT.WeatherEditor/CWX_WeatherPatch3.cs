@@ -1,5 +1,4 @@
-﻿using Aki.Common.Utils;
-using Aki.Reflection.Patching;
+﻿using Aki.Reflection.Patching;
 using System.Reflection;
 
 namespace CWX_WeatherPatcher
@@ -16,7 +15,7 @@ namespace CWX_WeatherPatcher
         {
             __instance.fog = false;
             __instance.fogEndDistance = 0f;
-            Log.Info("MADE CHANGES TO LEVELSETTINGS!");
+            Logger.LogInfo("MADE CHANGES TO LEVELSETTINGS!");
         }
     }
 }

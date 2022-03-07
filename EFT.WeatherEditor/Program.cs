@@ -1,12 +1,13 @@
-﻿using Aki.Common.Utils;
+﻿using BepInEx;
 
 namespace CWX_WeatherPatcher
 {
-    public class Program
+    [BepInPlugin("com.CWX.WeatherPatcher", "CWX-WeatherPatcher", "3.0.0")]
+    public class Plugin : BaseUnityPlugin
     {
-        static void Main(string[] args)
+        private void Start()
         {
-            Log.Info("Loading: CWX WEATHERPATCHER");
+            Logger.LogInfo("Loading: CWX-WeatherPatcher - V3.0.0");
             new CWX_WeatherPatch1().Enable();
             new CWX_WeatherPatch2().Enable();
             new CWX_WeatherPatch3().Enable();
