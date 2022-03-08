@@ -36,7 +36,7 @@ namespace CWX_WeatherPatcher
             __result.GlobalFogHeight = 0;
 
 
-            Logger.LogInfo("MADE CHANGES TO GClass1694 SMETHOD_0!");
+            Logger.LogMessage("MADE CHANGES TO GClass1694 SMETHOD_0!");
 
         }
     }

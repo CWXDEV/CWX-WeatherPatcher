@@ -15,7 +15,7 @@ namespace CWX_WeatherPatcher
         {
             __instance.fog = false;
             __instance.fogEndDistance = 0f;
-            Logger.LogInfo("MADE CHANGES TO LEVELSETTINGS!");
+            Logger.LogMessage("MADE CHANGES TO LEVELSETTINGS!");
         }
     }
 }

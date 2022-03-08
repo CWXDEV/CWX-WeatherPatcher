@@ -15,7 +15,7 @@ namespace CWX_WeatherPatcher
         {
             __instance.GlobalDensity = 0f;
             __instance.HeightFalloff = 0f;
-            Logger.LogInfo("MADE CHANGES TO TOD_SCATTERING FOG!");
+            Logger.LogMessage("MADE CHANGES TO TOD_SCATTERING FOG!");
         }
     }
 }
