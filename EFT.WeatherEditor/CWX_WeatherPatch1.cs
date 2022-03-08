@@ -18,7 +18,7 @@ namespace CWX_WeatherPatcher
         private static void PatchPostfix(ref GClass1694 __result)
         {
             //string json = File.ReadAllText("C:/AKI PROJECT/2.2.3 build - client 16909/user/mods/CWX_WeatherPatcher 2.1.5/config.json");
-            //var x = JsonConvert.DeserializeObject<JSONClass>(json.ToString());
+            //var x = JsonConvert.DeserializeObject<JSONClass>(json);
 
             //__result.Cloudness = x.Cloudness;
             //__result.WindDirection = x.WindDirection;
@@ -36,7 +36,7 @@ namespace CWX_WeatherPatcher
             __result.GlobalFogHeight = 0;
 
 
-            Log.Info("MADE CHANGES TO GClass1694 SMETHOD_0!");
+            Logger.LogInfo("MADE CHANGES TO GClass1694 SMETHOD_0!");
 
         }
     }
