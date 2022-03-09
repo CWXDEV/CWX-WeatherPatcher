@@ -1,0 +1,9 @@
+{
+    "name": "WEATHERPATCHER",
+    "author": "CWX",
+    "version": "2.1.5",
+    "license": "NCSA",
+    "main": "package.js",
+    "akiVersion": "2.2.3"
+}
+
