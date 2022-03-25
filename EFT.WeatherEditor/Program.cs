@@ -1,4 +1,10 @@
-﻿using BepInEx;
+﻿using System.Linq;
+using BepInEx;
+using CWX_WeatherPatch;
+using EFT.Weather;
+using GPUInstancer;
+using UnityEngine;
+using EFT.UI;
 
 namespace CWX_WeatherPatcher
 {
@@ -13,6 +19,22 @@ namespace CWX_WeatherPatcher
             new CWX_WeatherPatch2().Enable();
             new CWX_WeatherPatch3().Enable();
             new CWX_WeatherPatch4().Enable();
+            new CWX_WeatherPatch5().Enable();
+        }
+
+        public static void Fix()
+        {
+            var instance = WeatherController.Instance;
+            instance.RainController.enabled = false;
+            instance.LightningController.enabled = false;
+
+            var debug = WeatherController.Instance.WeatherDebug;
+            debug.Enabled = true;
+            debug.CloudDensity = -1f;
+            debug.Fog = 0f;
+            debug.Rain = 0f;
+            debug.LightningThunderProbability = 0f;
+            
         }
     }
 }
