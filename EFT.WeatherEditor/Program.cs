@@ -25,16 +25,18 @@ namespace CWX_WeatherPatcher
         public static void Fix()
         {
             var instance = WeatherController.Instance;
-            instance.RainController.enabled = false;
-            instance.LightningController.enabled = false;
+            if (instance != null)
+            {
+                instance.RainController.enabled = false;
+                instance.LightningController.enabled = false;
 
-            var debug = WeatherController.Instance.WeatherDebug;
-            debug.Enabled = true;
-            debug.CloudDensity = -1f;
-            debug.Fog = 0f;
-            debug.Rain = 0f;
-            debug.LightningThunderProbability = 0f;
-            
+                var debug = WeatherController.Instance.WeatherDebug;
+                debug.Enabled = true;
+                debug.CloudDensity = -1f;
+                debug.Fog = 0f;
+                debug.Rain = 0f;
+                debug.LightningThunderProbability = 0f;
+            }
         }
     }
 }
