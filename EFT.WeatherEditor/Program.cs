@@ -1,10 +1,6 @@
-﻿using System.Linq;
-using BepInEx;
+﻿using BepInEx;
 using CWX_WeatherPatch;
 using EFT.Weather;
-using GPUInstancer;
-using UnityEngine;
-using EFT.UI;
 
 namespace CWX_WeatherPatcher
 {
